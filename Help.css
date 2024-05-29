@@ -1,0 +1,50 @@
+h1 {
+
+    line-height: normal;
+    width: auto;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 100;
+    background-color: rgb(177, 108, 51);
+
+}
+
+h2 {
+
+    line-height: normal;
+    width: auto;
+    font-size: large;
+    font-weight: 500;
+
+}
+
+p {
+    line-height: normal;
+    width: 200px;
+    font-size: small;
+}
+
+ul {
+
+    background-color: burlywood;
+    font-size: 25px;
+    border-top: 10px black solid 
+}
+
+img {
+    height: 90px;
+    background-color: rgb(177, 108, 51);
+}
+
+.flex-container{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+
+
+
+}
+.flex-box{
+    display: flex;
+    justify-content: center;
+}
