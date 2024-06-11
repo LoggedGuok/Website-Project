@@ -6,6 +6,8 @@ h1 {
     font-size: 45px;
     font-weight: 100;
     background-color: rgb(177, 108, 51);
+    margin: remove;
+    padding: remove;
 
 }
 
@@ -20,15 +22,17 @@ h2 {
 
 p {
     line-height: normal;
-    width: 200px;
+    width: 450px;
     font-size: small;
+    border: 3px black solid;
+    text-align: center;
 }
 
 ul {
 
     background-color: burlywood;
     font-size: 25px;
-    border-top: 10px black solid 
+    border-top: 90px black solid;
 }
 
 img {
@@ -47,4 +51,7 @@ img {
 .flex-box{
     display: flex;
     justify-content: center;
+}
+body{
+    background-color: rgb(160, 104, 104);
 }
