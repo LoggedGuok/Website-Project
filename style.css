@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
 h1 {
 
     line-height: normal;
@@ -32,7 +38,7 @@ ul {
 
     background-color: burlywood;
     font-size: 25px;
-    border-top: 90px black solid;
+    border-top: 30px rgb(177, 108, 51) solid;
 }
 
 img {
