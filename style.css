@@ -1,63 +1,102 @@
+
+
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    background-color: rgb(247, 233, 222);
 }
 
-
-h1 {
-
-    line-height: normal;
-    width: auto;
-    text-align: center;
-    font-size: 45px;
-    font-weight: 100;
-    background-color: rgb(177, 108, 51);
-    margin: remove;
-    padding: remove;
-
-}
-
-h2 {
-
-    line-height: normal;
-    width: auto;
-    font-size: large;
+li, a, button {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: none;
     font-weight: 500;
+    font-size: 18px;
+    color: rgb(19, 2, 3);
+    background-color: rgb(247, 233, 222);
+    text-decoration: none;
 
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+    padding-bottom: 60px;
+    background-color: rgb(247, 233, 222);
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+
+}
+
+.nav_links li a:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(171, 192, 121);
+    padding: 6px;
+    border: none;
+    border-radius: 10px;
+}
+
+button {
+    padding: 9px 25px;
+    margin-left: auto;
+    font-weight: lighter;
+    color: azure;
+    background-color: rgb(235, 72, 162);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+
+}
+
+button:hover {
+    background-color: rgb(171, 192, 121);
+    padding: 12px 25px;
+    border-radius: 60px;
 }
 
 p {
+    margin-left: 450px;
+    justify-content: center;
     line-height: normal;
     width: 450px;
     font-size: small;
     border: 3px black solid;
     text-align: center;
 }
-
-ul {
-
-    background-color: burlywood;
-    font-size: 25px;
-    border-top: 30px rgb(177, 108, 51) solid;
+.aboutus {
+    font-size: large;
+    
 }
+
 
 img {
-    height: 90px;
-    background-color: rgb(177, 108, 51);
+    height: 65px;
 }
 
-.flex-container{
-    display: flex;
-    list-style: none;
-    justify-content: space-around;
-
-
-
-}
-.flex-box{
-    display: flex;
-    justify-content: center;
-}
-body{
+body {
     background-color: rgb(160, 104, 104);
+}
+
+.flex-box {
+    justify-content: center;
 }
